@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+.footer{
+    height: 72px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    background: #F5F5F2;
+    border-radius: 0px;
+    margin-top: auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+.TextStyle{
+    height: 21px;
+    left: 0%;
+    right: 75.84%;
+    top: -0.38px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-left: 144px;
+    margin-top: 25px;
+    margin-bottom: 26px;
+
+    /* identical to box height, or 150% */
+    
+    
+    color: #65665C;
+}

@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+.Div1{
+    display: flex;
+    justify-content: flex-end;
+
+    height: 686px;
+    background: #F5F5F2;
+    border-radius: 0px;
+}
+
+.FirstImage{
+    height: 686px;
+}
+
+#ImageSet{
+    height: 686px;
+    width: 720px;
+}
+
+#LeaderSet{
+    margin-right: 665px;
+}
+
+.LeaderWrapper{
+    display: flex;
+    flex-direction: column;
+
+
+
+    
+}
+
+.TextBox{
+    height: 29px;
+    width: 171px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+
+    margin-left: 92px;
+    
+    padding-top: 5px;
+    padding-left: 10px;
+
+    background: #E7E8E3;
+    border-radius: 32px;
+    
+}
+
+.FamilyEdit{
+    margin-left: 92px;
+    margin-right: 124px;
+    
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+
+    line-height: 67px;
+}
+
+.LoremEdit{
+    margin-left: 92px;
+    margin-right: 137px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+
+    line-height: 30px;
+
+    color: #65665C;
+
+
+}
+
+.ListEdit{
+    margin-left: 80px;
+
+
+}
+
+#UlEdit{
+    padding-inline-start: 0%;
+    padding-inline-end: 0%;
+    list-style: none;
+}
+
+#ButtonEdit{
+    height: 42px;
+    width: 149px;
+
+    background: #CF6F49;
+    border: 1px solid #CF6F49;
+    border-radius: 6px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    
+    color:white;
+}
+
+#SearchEdit{
+    height: 40px;
+    left: 0%;
+    right: 35.42%;
+    top: -0.41px;
+    padding-left: 50px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+
+    background: #FFFFFF;
+    border: 1px solid #E7E8E3;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+
+    color: #65665C;
+}
+
+div.ListEdit li{
+    display: inline-block;
+
+    line-height: 30px;
+    margin: 0 16px;
+}
+
+.LLeaderEdit{
+    margin-top: -42px;
+    margin-left: 665px;
+}
+
+
+.Div2{
+    display: flex;
+
+    height: 2322px;
+
+}
+
+.Div3{
+    display: flex;
+
+    height: 1559px;
+    background: #F5F5F2;
+}
+
+.Div4{
+    display: flex;
+
+    height: 741px;
+}
+
+.Div5{
+    display: flex;
+
+    height: 1065px;
+    background: #F5F5F2;
+}
+
+.Div6{
+    display: flex;
+    
+    height: 1055px;
+
+}

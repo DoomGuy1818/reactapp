@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+.Wrapper{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.HeaderTop{
+    width: 100%;
+    height: 40px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    background: #939878;
+    border-radius: 0px;
+    position: absolute;
+    
+}
+
+.LogoWrapper{
+    display: flex;
+    
+    margin-left: 60px;
+    
+}
+
+.Rectangle{
+    background: #CF6F49;
+    width: 32px;
+    height: 32px;
+    border-radius: 12px;
+    margin-top: 21px;
+}
+
+.Logo{
+    margin-top: 29px;
+    margin-left: 9.36px;
+}
+
+.HeaderBottom{
+    display: flex;
+    
+    width: 100%;
+    height: 74px;
+    
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 0px;
+
+    margin-top: 42px;
+    /*margin-left: 602px;*/
+
+}
+
+.TextBox{
+    position: absolute;
+    width: 217px;
+    height: 21px;
+    left: calc(50% - 217px/2 - 23.5px);
+    top: calc(50% - 21px/2 + 0.5px);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: white;
+}
+.TextWrapper ul{
+    padding-inline-start: 0%;
+    margin-top: 25px;
+}
+
+div.TextWrapper li{
+    padding: 0%;
+    list-style: none;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    margin-right: 32px;
+}
+
+div.TextWrapper a{
+    text-decoration: none;
+    color: #2A2C1F; 
+    
+}
+
+div.TextWrapper{
+    
+    
+    margin-left: 482px;
+    
+}
+
+div.StuffAside{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    
+    
+    margin-right: 60px;
+
+    
+
+}
+
+div.StuffAside ul {
+    display: flex;
+    padding-inline-start: 0%;
+    padding-inline-end: 0%;
+}
+
+div.StuffAside li {
+    list-style: none;
+    display: inline-block;
+    line-height: 30px;
+    margin: 0 16px;
+    
+
+}
+
+.ButtonEdit{
+    height: 42px;
+    width: 100px;
+    background: #FFFFFF;
+    border: 1px solid #E7E8E3;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+
+    
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+
+    
+}
+
+.PropertyEdit{
+    height: 42px;
+    width: 149px;
+
+    background: #CF6F49;
+    border: 1px solid #CF6F49;
+    border-radius: 6px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    
+    
+}
+
+    #Img{
+        margin-left: -25px;
+    }
+
+    #Search{
+        
+        margin-right: 6px;
+        
+    }
