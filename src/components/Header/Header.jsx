@@ -20,6 +20,7 @@ const Header = () => {
           </div>
 
         </div>
+        
         <div className={styles.TextWrapper}>
           
             <ul>

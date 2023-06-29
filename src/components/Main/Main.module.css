@@ -85,7 +85,7 @@
 
 }
 
-#UlEdit{
+.UlEdit{
     padding-inline-start: 0%;
     padding-inline-end: 0%;
     list-style: none;
@@ -142,17 +142,647 @@ div.ListEdit li{
 
 .Div2{
     display: flex;
+    flex-direction: column;
 
-    height: 2322px;
+    height: 2442px;
+
 
 }
+
+.TextBoxEdit{
+    margin-top: 62px;
+    margin-left: 80px;
+    margin-right: 1200px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+
+
+
+}
+
+.AnotherTextBox{
+    margin-top: 243px;
+    text-align: center;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+
+    line-height: 58px;
+}
+
+.Textbox3{
+    position: sticky;
+    width: 754px;
+    height: 54px;
+    left: calc(50% - 754px/2);
+    margin-top: 21px;
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    /* or 150% */
+
+    text-align: center;
+
+    color: #65665C;
+
+}
+
+#CardsWrap{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.CardEd{
+    box-sizing: border-box;
+
+    height: 291px;
+    width: 405px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+
+    margin-top: 61px;
+    
+    background: #FFFFFF;
+    border: 1px solid #E7E8E3;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+}
+
+.HouseWrap{
+    position: relative;
+    width: 48px;
+    height: 48px;
+    left: 45.75%;
+    right: 100%;
+    top: 49px;
+    bottom: 194px;
+    
+    background: #FAE8E1;
+    border-radius: 8px;
+    align-self: center;
+}
+
+.TextWrapper{
+    position: relative;
+    width: 161px;
+    height: 34px;
+    left: calc(50% - 161px/2);
+    top: 66px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    /* identical to box height, or 140% */
+    
+    text-align: center;
+    
+    color: #2A2C1F;
+    
+}
+
+.IcoWrapper{
+    position: relative;
+    left: 20.50%;
+    top: 23%;
+    right: 50%;
+}
+
+.SmallText{
+    position: relative;
+    width: 338px;
+    height: 72px;
+    left: calc(50% - 338px/2 + 0.5px);
+    top: 83px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    text-align: center;
+    
+    color: #65665C;
+}
+
+.FuncWrap{
+    display: flex;
+    flex-direction: column;
+}
+
+#TextEdit{
+    position: relative;
+    top: 269px;
+    width: 109px;
+    height: 29px;
+    
+    background: #E7E8E3;
+
+    margin-left: 70px;
+    border-radius: 32px;
+}
+
+.Comfort{
+    position: relative;
+
+    height: 21px;
+    left: 11.21%;
+    right: 11.21%;
+    top: 4px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+#FComfort{
+
+    width: 453px;
+    height: 116px;
+    margin-left: 70px;
+}
+
+.FComfortT{
+    position: relative;
+    top: 318px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+
+    color: #2A2C1F;
+
+}
+
+#SmallText2{
+
+    width: 520px;
+    height: 54px;
+
+    margin-left: 70px;
+}
+
+.LoremEd{
+    position: relative;
+    top: 346px;
+    color: #65665C;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.ButtList{
+    position: relative;
+    top: 367px;
+    margin-left: 54px;
+
+    
+}
+
+.Explore{
+
+    width: 192px;
+    height: 50px;
+    flex-shrink: 0;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+
+    border-radius: 6px;
+    border: 1px solid #E7E8E3;
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+    
+}
+
+div.ButtList li{
+    display: inline-block;
+
+    line-height: 30px;
+    margin: 0 16px;
+}
+
+.Pic{
+    display: flex;
+}
+
+.imga{
+    position: relative;
+    left: 760px;
+    bottom: 100px;
+}
+
+.trdImage{
+
+ margin-left: 70px;
+
+}
+.Quick{
+    position: relative;
+
+    top: 25px;
+    left: 80px;
+}
+
+.Easy{
+    position: relative;
+    top: 14.5px;
+    text-align: center;
+    width: 127px;
+    height: 29px;
+    flex-shrink: 0;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    border-radius: 32px;
+    background: #E7E8E3;
+}
+
+#Fast{
+    position: relative;
+    top: 25px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #2A2C1F;
+
+}
+
+#Ut{
+    position: relative;
+    top: 59px;
+
+    width: 600px;
+
+    color: #65665C;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+
+
+
+}
+
+.FastForward{
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    top: 20px;
+}
+
+
+
+.MoneyWrap{
+    position: relative;
+    width: 48px;
+    height: 48px;
+    right: 40px;
+    top: 49px;
+    bottom: 194px;
+    
+    background: #FAE8E1;
+    border-radius: 8px;
+    align-self: center;
+}
+
+.IcoWrapper1{
+    position: relative;
+    
+    top: 23%;
+    left: 9px;
+}
+
+.SpanEd{
+    position: relative;
+    top: 4px;
+
+}
+
+
+.TextWrapper1{
+    position: relative;
+    width: 161px;
+    height: 34px;
+    right: 50px;
+    top: 66px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    /* identical to box height, or 140% */
+    
+    text-align: center;
+    
+    color: #2A2C1F;
+    
+}
+
+
+.SmallText1{
+    position: relative;
+    right: 40px;
+    height: 72px;
+    width: 300px;
+
+    top: 83px; 
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    
+    color: #65665C;
+}
+
+.IcoWrapper2{
+    position: relative;
+    
+    top: 23%;
+    left: 9px;
+}
+
+
+
+.TextWrapper2{
+    position: relative;
+    width: 161px;
+    height: 34px;
+    right: 50px;
+    top: 66px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    /* identical to box height, or 140% */
+    
+    text-align: center;
+    
+    color: #2A2C1F;
+    
+}
+
+
+.SmallText2{
+    position: relative;
+    right: 40px;
+    height: 72px;
+    width: 300px;
+
+    top: 83px; 
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    
+    color: #65665C;
+}
+
+.PayWrap{
+    position: relative;
+    top: 77px;
+    height: 48px;
+    width: 48px;
+    border-radius: 8px;
+    background: #FAE8E1;
+}
+
+.CardWrapper{
+    display: flex;
+
+}
+
+.AfforEd{
+    position: relative;
+    top: 98px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+
+    color: #2A2C1F;
+}
+
+.IpsumEd{
+    
+    height: 72px;
+    width: 245px;
+
+    position: relative;
+    top: 116px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    
+    color: #65665C;
+}
+
+.DescWrap{
+    margin-left: 70px;
+    margin-right: 80px;
+
+    position: relative;
+    top: 20px;
+}
+
+div.Re ul{
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+div.Re li{
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.Re{
+    position: relative;
+    top: 130px;
+    right: 15px;
+
+}
+
 
 .Div3{
     display: flex;
-
-    height: 1559px;
+    flex-direction: column;
+    height: 2300px;
     background: #F5F5F2;
 }
+
+#div3{
+    position: relative;
+    top: 128px;
+    left: 550px;
+
+}
+
+#div3Sp{
+    position: relative;
+    left: 45px;
+    bottom: 20px;
+    top: 2px;
+}
+
+.House{
+    position: relative;
+    top: 178px;
+    left: 480px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 54.8px;
+
+    color: #2A2C1F;
+
+}
+
+.HomeWrap{
+    display: flex;
+    
+
+    position: relative;
+    
+    top: 259px;
+
+    width: 1920px;
+    height: 460px;
+
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+
+
+.ProdCard{
+    display: flex;
+    flex-direction: column;
+
+    height: 460px;
+    width: 405px;
+    margin-left: 75px;
+
+    background-color: #FFFFFF;
+}
+
+#scnd{
+    position: relative;
+}
+
+.HomeWrap1{
+    display: flex;
+    
+
+    position: relative;
+    
+    top: 289px;
+
+    width: 1920px;
+    height: 460px;
+
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+.Cozy{
+    display: flex;
+    flex-direction: column;
+
+    margin: 24px;
+}
+
+.ProdEd{
+    position: relative;
+    top: 76px;
+
+    display: flex;
+
+    
+}
+
+.LogoEd{
+    margin-left: 18px;
+}
+
+.showcout{
+    margin-left: 8px;
+}
+
+#FirstLogo{
+    margin-left: 0px;
+}
+
+#CozyExp{
+    position: relative;
+    top: 342px;
+    left: 80vh;
+
+
+}
+
+.LowLeaderEd{
+    height: 135px;
+    width: 135px;
+
+    position: relative;
+    top: 393px
+}
+
 
 .Div4{
     display: flex;
@@ -169,6 +799,7 @@ div.ListEdit li{
 
 .Div6{
     display: flex;
+
     
     height: 1055px;
 
