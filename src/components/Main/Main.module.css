@@ -657,7 +657,7 @@ div.Re li{
 .Div3{
     display: flex;
     flex-direction: column;
-    height: 2300px;
+    height: 2674px;
     background: #F5F5F2;
 }
 
@@ -783,24 +783,485 @@ div.Re li{
     top: 393px
 }
 
+.LocationDiv{
+    display: flex;
+    flex-direction: column;
+    height: 127px;
+    width: 712px;
+
+    position: relative;
+    top: 393px;
+    left: 400px;
+    align-items: center;
+}
+
+.LocationSp{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 54.8px;
+
+    color: #2A2C1F;
+
+}
+
+.Nunc{
+    position: relative;
+    top: 25px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    /* or 150% */
+    
+    align-items: center;
+
+    color: #65665C;
+}
+
+.HouseLocation{
+    display: flex;
+
+    position: relative;
+    top: 466px;
+
+    width: 1920px;
+    height: 130px;
+
+      
+    
+    
+}
+
+.LocCard{
+    display: flex;
+    flex-direction: column;
+
+    width: 416px;
+    height: 130px;
+
+    border-radius: 16px;
+    border: 1px solid #E7E8E3;
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+    margin-left: 70px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 54.8px;
+
+    color: #2A2C1F;
+}
+
+#LocId {
+    top: 482px;
+}
+
+.LocTextWrap{
+    display: flex;
+    flex-direction: column;
+
+    margin: 23px;
+}
+
+.RefDown{
+    position: relative;
+    top: 0px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+
+}
+
+#LocExp{
+    position: relative;
+    top: 552px;
+    left: 600px;
+}
 
 .Div4{
     display: flex;
+    flex-direction: column;
 
-    height: 741px;
+    height: 1241px;
+
+}
+
+.VeryBigDiv{
+    width: 1280px;
+    height: 465px;
+    
+    border-radius: 24px;
+    background: #65665C;
+
+    align-items: center;
+    
+    margin-left: 120px;
+    margin-top: -233px;
+
+}
+
+
+.Square{
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    background: #FFF;
+    
+   
+   
+
+}
+
+.RestEd{
+    position: relative;
+    left: 10px;
+    top: 9px;
+}
+
+.RectDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 273px;
+    width: 768px;
+    margin-left: 256px;
+    margin-top: 96px;
+}
+
+.Text1{
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57.6px;
+}
+
+.Text2{
+    color: #E7E8E3;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+
+    position: relative;
+    top: 29px;
+}
+
+.FamButt{
+    width: 137px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #CF6F49;
+    background: #CF6F49;
+    position: relative;
+    top:49px;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    
+}
+
+#CustSay{
+    position: relative;
+    top: 389px;   
+}
+
+.Disc1{
+    display: flex;
+
+    position: relative;
+    top:33px;
+    left: 33px;
+
+}
+
+.CustName{
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    left: 16px;
+
+}
+
+.CustCard{
+    display: flex;
+    position: relative;
+    top:120px;
+    margin-left: 33px;
+}
+
+.BlogEd{
+
+    margin-top: 192px;
+    
+
+    width: 53px;
+    height: 29px;
+    flex-shrink: 0;
+
+    border-radius: 32px;
+    background: #E7E8E3;
+
+    color: #2A2C1F;
+    font-size: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.BlogTxt{
+    position: relative;
+    left: 10px;
+}
+
+.BlogBefCont{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+
+    width: 700px;
+
+    color: #2A2C1F;
+    font-size: 48px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57.6px;
+
+    position: relative;
+    
+}
+
+#Late{
+    position: relative;
+    top: 20px;
+}
+
+#AfterLate{
+    position: relative;
+    top: 39px;
+
+    color: #65665C;
+    font-size: 18px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+#ViewButt{
+    position: relative;
+    left: 1260px;
+
+    width: 108px;
+    height: 50px;
+    flex-shrink: 0;
+
+    border-radius: 6px;
+    border: 1px solid #E7E8E3;
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+
+
+}
+
+#BlogCards{
+    top: 81px;
 }
 
 .Div5{
     display: flex;
+    flex-direction: column;
 
     height: 1065px;
     background: #F5F5F2;
 }
 
+.Date{
+    display: flex;
+    
+}
+
+.CardDate{
+    position: relative;
+    left: 16px;
+}
+
+.Trend{
+    
+    width: 62px;
+    height: 29px;
+    flex-shrink: 0;
+
+    border-radius: 32px;
+    background: #FAE8E1;
+}
+
 .Div6{
     display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    height: 455px;
 
+}
+
+.NavbarFoot{
+    display: flex;
+    flex-direction: column;
+}
+
+.NavBar{
+    display: flex;
+    position: relative;
+    left: 100px;
+}
+
+.LogotipEd{
+    height: 32px;
+    width: 105px;
+
+    position: relative;
+    top: 64px;
+}
+
+.HeadEd{
+    position: relative;
+    left: 40px;
+}
+
+.ListEdit1{
+    margin-top: 30px;
     
-    height: 1055px;
+    color: #2A2C1F;
+    font-size: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    
+    position: relative;
+    left: 75px;
+}
 
+div.ListEdit1 ul{
+    list-style: none;
+}
+
+div.ListEdit1 li{
+    margin-top: 16px;
+}
+
+.FootSub{
+    width: 384px;
+    height: 210px;
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left:400px;
+
+    margin-top: 30px;
+
+    color: #2A2C1F;
+    font-size: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    
+}
+
+.Join{
+    position: relative;
+    top: 20px;
+
+    color: #65665C;
+    font-size: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+.EmailEd{
+    position: relative;
+    top: 25px;
+}
+
+#InputEd{
+    width: 241px;
+    height: 48px;
+    flex-shrink: 0;
+
+    border-radius: 6px;
+    border: 1px solid #E7E8E3;
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+
+    color: #65665C;
+    font-size: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    
+    
+}
+
+#ButtEd{
+    width: 127px;
+    height: 50px;
+    flex-shrink: 0;
+
+    border-radius: 6px;
+    border: 1px solid #CF6F49;
+    background: #CF6F49;
+    
+    position: relative;
+    left: 16px;
+    
+
+    color: #FFF;
+    font-size: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    
+}
+
+.EndSub{
+    position: relative;
+    top: 32px;
+
+    color: #65665C;
+    font-size: 12px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
 }

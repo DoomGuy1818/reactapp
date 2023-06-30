@@ -21,8 +21,12 @@ import bath from './images/logo/bathtub.svg'
 import bed from './images/logo/bed.svg'
 import foot from './images/logo/square_foot.svg'
 import LowLeader from './images/logo/LowerLeader.svg'
-
-
+import Rest from './images/logo/family_restroom.svg'
+import star from './images/logo/star.svg'
+import Cust1 from './images/pic/Customer1.png'
+import Cust2 from './images/pic/Cust2.png'
+import Cust3 from './images/pic/Cust3.png'
+import Logo from './images/logo/Logo.svg'
 
 const Main = () => {
   return (
@@ -393,9 +397,6 @@ const Main = () => {
 
             </div>
 
-            
-               
-                
               </div>
 
           </div>
@@ -428,10 +429,8 @@ const Main = () => {
                   <span className={main.showcout}>840sqft </span>
                 </div>
                
-
             </div>
-            
-                
+              
               </div>
 
           </div>
@@ -451,13 +450,310 @@ const Main = () => {
 
         <img src={LowLeader} className={main.LowLeaderEd}></img>
 
+        <div className={main.LocationDiv}>
+          <span className={main.LocationSp}>Locations</span>
+          <span className={main.Nunc}>Nunc mi ante, fringilla eget iaculis et, maximus vel purus integer lacus urna, aliquet non nisl sit amet.</span>
+        </div>
+
+        <div className={main.HouseLocation}>
+          <div className={main.LocCard}>
+
+            <div className={main.LocTextWrap}>
+            <span>San Francisco, CA</span>
+            <a href = "#" className={main.RefDown}>View Properties</a>
+            </div> 
+
+          </div>
+          <div className={main.LocCard}>
+
+            <div className={main.LocTextWrap}>
+              <span>San Francisco, CA</span>
+              <a href = "#" className={main.RefDown}>View Properties</a>
+            </div> 
+          </div>
+          <div className={main.LocCard}>
+
+            <div className={main.LocTextWrap}>
+              <span>San Francisco, CA</span>
+              <a href = "#" className={main.RefDown}>View Properties</a>
+            </div> 
+
+          </div>
+        </div>
+
+        <div className={main.HouseLocation} id ={main.LocId}>
+          <div className={main.LocCard}>
+            <div className={main.LocTextWrap}>
+              <span>San Francisco, CA</span>
+              <a href = "#" className={main.RefDown}>View Properties</a>
+            </div> 
+
+          </div>
+          
+          <div className={main.LocCard}>
+            <div className={main.LocTextWrap}>
+              <span>San Francisco, CA</span>
+              <a href = "#" className={main.RefDown}>View Properties</a>
+            </div> 
+          </div>
+
+          <div className={main.LocCard}>
+            <div className={main.LocTextWrap}>
+              <span>San Francisco, CA</span>
+              <a href = "#" className={main.RefDown}>View Properties</a>
+            </div> 
+          </div>
+        </div>
+
+        <div className={main.Re} id = {main.LocExp}>
+          <ul>
+            <li>
+            <button className={main.Explore}>Explore properties</button>
+            </li>
+            <li>
+              <span>Contact agent</span>
+            </li>
+          </ul>
+        </div>
+
       </div>
 
-      <div className={main.Div4}>4</div>
+      <div className={main.Div4}>
+
+        <div className={main.VeryBigDiv}>
+          
+          <div className= {main.RectDiv}>
+            <div className={main.Square}>
+              <img src={Rest} className={main.RestEd}></img>
+            </div>
+
+            <span className={main.Text1}>
+              Families are our priority
+            </span>
+            <span className={main.Text2}>
+              Curabitur eget aliquam elit. In mauris purus, auctor a eleifend non, placerat vel arcu. In non consectetur lorem. Morbi non varius sapien suscipit mauri.
+            </span>
+            <button className={main.FamButt}>Get started</button>
+          </div>
+        </div>
+        
+        <div className={main.LocationDiv}>
+          <span className={main.LocationSp}>What customers say</span>
+          <span className={main.Nunc}>Faucibus orci luctus et ultrices posuere cubilia curae.</span>
+        </div>
+
+        <div id={main.CardsWrap}>
+
+          <div className={main.CardEd} id ={main.CustSay}>
+
+            <div class ={main.Disc1}>
+              <img src={star}></img>
+              <img src={star}></img>
+              <img src={star}></img>
+              <img src={star}></img>
+              <img src={star}></img>
+            </div>
+
+            <div className={main.SmallText}>
+              <span>"Condimentum viverra orci. Pellentesque suscipit odio nisl, non ultricies purus mattis eget. In placerat, lorem a sodales ullamcorper, eros nibh laoreet nisl."</span>
+            </div>
+            <div className={main.CustCard}>
+              <img src = {Cust1} className={main}></img>
+              <div className={main.CustName}>
+                <span>Jason Stetham</span>
+                <span>Actor</span>
+              </div>
+            </div>
+            
+          </div>
+          
+          <div className={main.CardEd} id ={main.CustSay}>
+            <div class ={main.Disc1}>
+              <img src={star}></img>
+              <img src={star}></img>
+              <img src={star}></img>
+              <img src={star}></img>
+              <img src={star}></img>
+            </div>
+
+            <div className={main.SmallText}>
+              <span>"Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi pretium iaculis ultricies. Aenean in leo vitae tortor."</span>
+            </div>
+
+            <div className={main.CustCard}>
+              <img src = {Cust2} className={main}></img>
+              <div className={main.CustName}>
+                <span>Eva Elfie</span>
+                <span>Customer</span>
+              </div>
+            </div>
+
+          </div>
+          
+          <div className={main.CardEd} id ={main.CustSay}>
+            <div class ={main.Disc1}>
+              <img src={star}></img>
+              <img src={star}></img>
+              <img src={star}></img>
+              <img src={star}></img>
+              <img src={star}></img>
+            </div>
+
+            <div className={main.SmallText}>
+              <span>"Aliquam erat volutpat. Nulla pretium nec urna et convallis. Ut varius mi lacus, nec molestie libero ultricies nec. Aenean lacinia dui elit, ut gravida quam."</span>
+            </div>
+
+            <div className={main.CustCard}>
+              <img src = {Cust3} className={main}></img>
+              <div className={main.CustName}>
+                <span>Anna Penyaz</span>
+                <span>Customer</span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
       
-      <div className={main.Div5}>5</div>
+      <div className={main.Div5}>
+
+        <div className={main.BlogBefCont}>
+
+          <div className={main.BlogEd}>
+            <span className={main.BlogTxt}>Blog</span>
+          </div>
+
+          <span id = {main.Late}>Latest posts</span>
+          <span id = {main.AfterLate}>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. Praesent efficitur nibh massa morbi sagittis ornare dui in ornare.</span>
+          <button id = {main.ViewButt}>View all</button>
+        </div>
+
+        <div className={main.HomeWrap} id = {main.BlogCards}>
+          
+          <div className={main.ProdCard}>
+            <img src={Image4}></img>
+            <div className={main.Cozy}>
+              <div className={main.Date}>
+
+                <div classname ={main.Trend}>Trends</div>
+                <span className={main.CardDate}>10 May,2022</span>
+
+              </div>
+
+              <span>The 9 best homes in New York</span>
+              <span>Integer tincidunt rutrum faucibus. Proin sit amet varius arcu. Aliquam vel leo augue donec.</span>
+
+              <a href = "#">Read More</a>
+
+            </div>
+              
+            
+          </div>
+            
+          <div className={main.ProdCard}>
+            <img src = {Image5}></img>
+
+            <div className={main.Cozy}>
+            <div className={main.Date}>
+
+                <div classname ={main.Trend}>Trends</div>
+                <span className={main.CardDate}>10 May,2022</span>
+
+              </div>
+
+              <span>The 9 best homes in New York</span>
+              <span>Integer tincidunt rutrum faucibus. Proin sit amet varius arcu. Aliquam vel leo augue donec.</span>
+
+              <a href = "#">Read More</a>
+
+
+            </div>
+
+          </div>
+            
+          <div className={main.ProdCard}>
+            <img src={Image6}></img>
+
+            <div className={main.Cozy}>
+            <div className={main.Date}>
+
+              <div classname ={main.Trend}>Trends</div>
+              <span className={main.CardDate}>10 May,2022</span>
+
+              </div>
+
+              <span>The 9 best homes in New York</span>
+              <span>Integer tincidunt rutrum faucibus. Proin sit amet varius arcu. Aliquam vel leo augue donec.</span>
+
+              <a href = "#">Read More</a>
+   
+            </div>
+
+          </div>
+            
+        </div>
+        
+        
+      </div>
       
-      <div className={main.Div6}>6</div>
+      <div className={main.Div6}>
+        <img src={Logo} className={main.LogotipEd}></img>
+
+        <nav className={main.NavbarFoot}>
+          <div className={main.NavBar}>
+            
+            <div className={main.ListEdit1}>
+            <span className={main.HeadEd}>Pages</span>
+              <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Blog</li>
+                <li>Agent</li>
+                <li>Contacts</li>
+                <li>FAQ</li>
+                <li>Properties</li>
+              </ul>
+            </div>
+
+            <div className={main.ListEdit1}>
+              <span className={main.HeadEd}>CMS Pages</span>
+              <ul>
+                <li>Property</li>
+                <li>Property single</li>
+                <li>Blog Categories</li>
+                <li>Blog Single</li>
+                <li>Agent Single</li>
+              </ul>
+            </div>
+
+            <div className={main.ListEdit1}>
+              <span className={main.HeadEd}>Utility Pages</span>
+              <ul>
+                <li>Style Guide</li>
+                <li>Changelog</li>
+                <li>Licenses</li>
+                <li>404</li>
+                <li>Password</li>
+                <li>Search</li>
+              </ul>
+            </div>
+
+            <div className={main.FootSub}>
+              <span>Subscribe</span>
+              <span className={main.Join}>Join our newsletter to stay up to date on features and releases.</span>
+              <div className={main.EmailEd}>
+                <input id = {main.InputEd} placeholder='Enter your email'></input>
+                <button id = {main.ButtEd}>Subscribe</button>
+              </div>
+              <span className = {main.EndSub}>By subscribing you agree to with our  <a href = "#">Private Policy</a>
+              </span>
+            </div>
+
+          </div>
+        </nav>
+      </div>
       
     </div>
 
